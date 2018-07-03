@@ -1,0 +1,54 @@
+{
+  "name": "portfolio-app",
+  "version": "0.0.1",
+  "description": "Portfolio app for and from Andrew Mead's React course",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack -p",
+    "dev-server": "webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@bitbucket.org:fabioa-matches/portfolio-app.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "indecision",
+    "udemy",
+    "mead"
+  ],
+  "author": "Fabio Albertin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-mf": "^1.1.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.8.2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.4.5",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "validator": "^10.4.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
